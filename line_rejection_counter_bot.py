@@ -15,7 +15,6 @@ from linebot.models import (
 from linebot.exceptions import InvalidSignatureError
 from PIL import Image
 import pytesseract
-pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
 KEYWORDS = ["不採用", "お祈り", "残念ながら", "難しい", "申し訳ございません", "添えず", "できかねる", "ご期待"]
 
